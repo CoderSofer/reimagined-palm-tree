@@ -136,6 +136,7 @@ h2{
     justify-content: space-between;
     align-items:center;
     text-align: center;
+    margin: 0 auto;
     
 }
 
@@ -143,13 +144,20 @@ h2{
 .eduSchool{
     background-color:rgb(247, 231, 245);
     padding: 0.5%;
-    /* margin:0% 27% 0% 27%; */
 
 }
 
 /* Programs images */
 .proImage{
     width:10%;
+}
+
+/* Skills stars */
+@media (max-width: 380px) {
+    .bi-star-fill, .bi-star{
+        width:5%;
+         height:5%;
+    }
 }
 
 /* Work exp images */
@@ -165,12 +173,26 @@ h2{
     text-align: center;
     flex-direction:column;
     justify-content: space-around;
+    background-color:rgb(247, 231, 245);
+    padding: 0.5%;
+    
+}
+
+/* Interests Text */
+.intText{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+    
 }
 
 /* Valorant interest images */
-/* .interestImg{
-    width: 100% \9;
-} */
+.interestImg{
+    width: 30%;
+} 
 
 /* Valorant flex boxes */
 .valoSection{
@@ -178,5 +200,27 @@ h2{
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
+    align-items:center;
 
 }
+
+/* Contact me PAGE */
+
+/* Contact me section */
+.contact-me{
+    margin: 10% 0% 0% 0%;
+}
+
+/* Contact me form colour */
+.contact-me-form{
+    background-color:rgb(247, 231, 245);
+    padding: 2.5%;
+}
+
+/* Submit button */
+.submit{
+    background-color:rgb(219, 230, 252);
+    border-color: rgb(193, 189, 245);
+}
+
+
