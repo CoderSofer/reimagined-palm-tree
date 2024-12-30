@@ -92,7 +92,7 @@ a.active{
 
 
 /* All specific projects */
-.pro1, .pro2, .pro3{
+.pros{
     background-color: #f1f1f1;
     padding: 10px;
     flex: 33.3%;
@@ -112,7 +112,7 @@ a.active{
 }
 
 /* Project Descriptions in general */
-#desc1, #desc2, #desc3{
+.descs{
     padding: 1% 20% 0.5% 20%;
     font-size: 100% !important;
 }
